@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    
+}
+html,body{
+    margin: 0px;
+    padding:0px;
+    height: 100%;
+        width:100%;
+}
+
+.scroller {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color:red;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background:linear-gradient(to right, red, yellow);;
+  width: 0%;
+}
+
+.toparrow{
+    position: fixed;
+    bottom:5px;
+    right:10px;
+display:none;}
+
+header{
+    
+   background-color:black;
+
+    
+ background-size: cover;
+ background-position: center center;  
+   background-repeat: no-repeat; 
+    
+}
+
+canvas{
+			min-width: 100vw;
+			height: 70vh;
+			position: relative;
+     
+		 }
+
+.we{
+height:65vh;
+  position: relative;  
+}
+
+@media only screen and (max-width: 800px) {
+ .we .parallax-container {
+    height:30vh;
+     position:relative;
+  }
+    .we  {
+    height:30vh;
+     position:relative;
+  }
+    canvas{
+			min-width: 100vw;
+			height: 40vh;
+			position: relative;
+     
+		 }
+
+}
+
+.are{
+
+  position: absolute; 
+   width:25%;
+   
+top:5vh;
+font-size: 4vh;
+  font-size: 4vw;
+      
+    
+    background: rgba(0, 0, 0, 0.3);
+  padding:1vh;
+text-align:left;
+    font-family:timeburner;
+    margin: 1vw;
+
+    
+}
+
+.who{border:solid white 1px;
+    border-bottom-style: outset;
+}
+.inner{
+    font-size: 3vh;
+    font-family:inherit;
+    font-size: 2vw;
+}
+
+.profiles
+{position: relative;
+  height:100vh;
+bottom:4vh;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+}
+.what{
+    font-size: 4vh;
+  font-size: 4vw;
+position:absolute;
+  top: 5vh;
+      
+}
+.team{
+    border: solid 1px white;
+}
+.marg{
+    height:100vh;
+    position:relative;
+}
+
+}
